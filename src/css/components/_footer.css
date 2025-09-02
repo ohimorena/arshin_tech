@@ -1,0 +1,45 @@
+.footer__container {
+  height: 39.7rem;
+  background-color: var(--white-color);
+  padding: 2rem;
+  position: relative;
+}
+
+.footer__logo {
+  width: 27.8%;
+  height: 12.5rem;
+  margin-bottom: 4rem;
+}
+
+.footer__contacts {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--black--color);
+}
+
+.footer__email {
+  margin-bottom: 10px;
+}
+
+.footer__address {
+  width: 50%;
+  position: absolute;
+  right: 2rem;
+  bottom: 2rem;
+}
+
+.footer__policy {
+  font-weight: 400;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 2rem;
+  bottom: 2rem;
+}
+
+.footer__menu {
+  width: auto;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}

@@ -1,0 +1,98 @@
+.about {
+  margin-bottom: 10rem;
+}
+
+.about__container {
+  height: 608px;
+  background-color: var(--light-color);
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.about__first {
+  width: 57%;
+  height: 259px;
+  background-color: var(--white-color);
+  border-radius: 20px;
+  padding-top: 25px;
+  padding-left: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.about__first-tags {
+  margin-bottom: 4.2rem;
+}
+
+.about__first-title {
+  margin-bottom: 2rem;
+}
+
+.about__first-descr {
+  font-weight: 600;
+  font-size: 18px;
+  color: #6b6b6b;
+  position: absolute;
+  bottom: 2.3rem;
+}
+
+.about__first-pattern {
+  width: 13.5rem;
+  height: 12.8rem;
+  position: absolute;
+  top: 1.3rem;
+  right: 2.3rem;
+  background-image: url("../../img/about-pattern-1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.about__second {
+  width: 57%;
+  height: 309px;
+  background-color: var(--grey-color);
+  border-radius: 20px;
+  padding: 2rem;
+  position: relative;
+}
+
+.about__second-title {
+  margin-bottom: 2.7rem;
+}
+
+.about__second-descr {
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--white-color);
+  max-width: 75%;
+}
+
+.about__second-request {
+  position: absolute;
+  bottom: 20px;
+}
+
+.about__second-pattern {
+  width: 16.5rem;
+  height: 16.5rem;
+  position: absolute;
+  right: 4.2rem;
+  bottom: 2.5rem;
+  background-image: url("../../img/about-pattern-2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.about__img {
+  width: 40%;
+  height: 608px;
+  border-radius: 20px;
+  background-image: url('../../img/camera-1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

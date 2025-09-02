@@ -1,0 +1,179 @@
+.form {
+  margin-bottom: 10rem;
+}
+
+.form__container {
+  min-height: 1474px;
+  background-color: var(--white-color);
+  padding: 20px;
+  grid-template-columns: repeat(2, 48%);
+  gap: 4rem;
+}
+
+.form__card {
+  min-width: 46.5%;
+  min-height: 180px;
+  border-radius: 20px;
+  background-color: var(--grey-color);
+  padding: 21px;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--white-color);
+}
+
+.form__card--long {
+  grid-column: span 2;
+}
+
+.form__card--long-1 {
+  min-height: 234px;
+}
+
+.form__card--long-2 {
+  height: 280px;
+  position: relative;
+}
+
+.card__title {
+  margin-bottom: 2.5rem;
+}
+
+.card__items {
+  flex-wrap: wrap;
+}
+
+.card__item {
+  width: 43%;
+  height: 20px;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.card__input-wrapper {
+  width: 50%;
+}
+
+.card__input {
+  background-color: #f1adad;
+  width: 91%;
+  height: 39px;
+  background-color: var(--white-color);
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+
+.card__input::placeholder {
+  color: var(--grey-color);
+}
+
+.card__input--9 {
+  width: 203px;
+  height: 50px;
+}
+
+.card__checkbox {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  appearance: none;
+}
+
+.card__checkbox::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  position: absolute;
+  background-image: url('../../img/checkbox-unchecked.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.card__checkbox:checked::after {
+  background-image: url('../../img/checkbox-checked.png');
+}
+
+.card__checkbox:focus {
+  outline: none;
+}
+
+.card__select {
+  width: 96.5%;
+  height: 50px;
+  background-color: var(--white-color);
+  border-radius: 20px;
+  border: none;
+  color: var(--black-color);
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.select__value {
+  margin-right: 5px;
+}
+
+.select__arrow {
+  width: 23px;
+  height: 24px;
+  background-image: url('../../img/arrow-2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.select:focus .select__dropdown {
+  display: block;
+}
+
+.select__dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  border: 1px solid #000000;
+  background-color: #fff;
+  display: none;
+  z-index: 10;
+}
+
+.select__option {
+  padding: 6px 12px;
+}
+
+.select__option:hover {
+  background-color: var(--grey-color);
+}
+
+.card__textarea {
+  width: 620px;
+  height: 90px;
+  resize: none;
+  overflow: hidden;
+  border-radius: 20px;
+  border: none;
+  background-color: var(--white-color);
+  padding: 10px;
+}
+
+.card__request {
+  position: absolute;
+  bottom: 20px;
+}
+
+.card__request img {
+  object-fit: contain;
+}
+
+.just-validate-error-field {
+  margin-bottom: 3px;
+}
+
+.just-validate-error-label {
+  margin-bottom: 15px;
+  padding-left: 10px;
+}

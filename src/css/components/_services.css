@@ -1,0 +1,111 @@
+.services {
+  margin-bottom: 10rem;
+}
+
+.services__container {
+  max-height: 729px;
+  background-color: var(--white-color);
+  padding: 2rem;
+  position: relative;
+}
+
+.services__tags {
+  position: absolute;
+  top: 2rem;
+  right: 1.9rem;
+  width: 35%;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  gap: 1rem;
+}
+
+.services__title {
+  margin-bottom: 8rem;
+}
+
+.services__items-container {
+  height: 500px;
+  grid-template-columns: 39.3% 25% 28%;
+  grid-template-rows: repeat(6, 1fr);
+  grid-auto-flow: column;
+  gap: 4rem;
+  justify-content: space-between;
+}
+
+.services__item {
+  padding: 11px;
+  background-color: var(--grey-color);
+  border-radius: 20px;
+  position: relative;
+}
+
+.services__item--narrow {
+  grid-row: span 2;
+}
+
+.services__item--wide {
+  grid-row: span 3;
+}
+
+.services__item--img {
+  grid-row: span 6;
+  border-radius: 20px;
+  background-image: url('../../img/camera-2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.services__item-title {
+  width: 78%;
+  font-weight: 600;
+  font-size: 2.2rem;
+  color: var(--white-color);
+}
+
+.services__item-text {
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: var(--white-color);
+  position: absolute;
+  bottom: 10px;
+}
+
+.services__item-text--narrow {
+  width: 80%;
+}
+
+.services__item-text--wide {
+  width: 94%;
+}
+
+.services__item-pattern {
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  top: 1rem;
+  right: 2.1rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.services__item-pattern--1 {
+  background-image: url('../../img/services-pattern-1.png');
+}
+
+.services__item-pattern--2 {
+  background-image: url('../../img/services-pattern-2.png');
+}
+
+.services__item-pattern--3 {
+  background-image: url('../../img/services-pattern-3.png');
+}
+
+.services__item-pattern--4 {
+  background-image: url('../../img/services-pattern-4.png');
+}
+
+.services__item-pattern--5 {
+  background-image: url('../../img/services-pattern-5.png');
+}

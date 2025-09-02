@@ -1,0 +1,46 @@
+.work {
+  margin-bottom: 10rem;
+}
+
+.work__container {
+  height: 53.2rem;
+  background-color: var(--blue-color);
+  padding: 2rem;
+  position: relative;
+}
+
+.work__tags {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  max-width: 35%;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  gap: 1rem;
+}
+
+.work__box {
+  width: 96.5%;
+  max-height: 345px;
+  position: absolute;
+  bottom: 21px;
+  justify-content: space-between;
+}
+
+.work__item {
+  width: 30.8%;
+  aspect-ratio: 1 / 1;
+  padding: 30px;
+  border: 2px solid white;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: 300;
+  font-size: 2.2rem;
+  color: var(--white-color);
+  justify-content: center;
+  align-items: center;
+}
+
+.work__item span {
+  font-weight: 700;
+}

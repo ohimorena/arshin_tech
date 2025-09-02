@@ -1,0 +1,48 @@
+.request {
+  margin-bottom: 4rem;
+}
+
+.request__container {
+  height: 16.9rem;
+  background-color: var(--white-color);
+  padding: 2rem;
+  justify-content: space-between;
+}
+
+.request__title {
+  width: 38.2%;
+}
+
+.request__box {
+  width: 64rem;
+  height: 13rem;
+  justify-content: space-between;
+}
+
+.request__card {
+  width: 30rem;
+  background-color: var(--blue-color);
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-top: 10px;
+  position: relative;
+}
+
+.request__pattern {
+  width: 3.7rem;
+  height: 3.7rem;
+  background-color: var(--white-color);
+  border-radius: 50%;
+  background-image: url('../../img/double-tick.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.request__text {
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: var(--white-color);
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}

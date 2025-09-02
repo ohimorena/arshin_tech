@@ -1,0 +1,74 @@
+.offers {
+  margin-bottom: 10rem;
+}
+
+.offers__container {
+  height: 32.5rem;
+  padding: 2rem;
+  background-color: var(--white-color);
+  position: relative;
+}
+
+.offers__title {
+  display: inline-block;
+  width: 51.8%;
+}
+
+.offers__text {
+  display: inline-block;
+  width: 28%;
+  font-family: 'Muller', sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: var(--black-color);
+}
+
+.offers__box {
+  width: 96%;
+  position: absolute;
+  bottom: 2rem;
+  justify-content: space-between;
+}
+
+.offers__card {
+  width: 48.2%;
+  height: 19rem;
+  background-color: var(--blue-color);
+  border-radius: 20px;
+  padding: 15px 10px;
+  position: relative;
+}
+
+.offers__tags {
+  gap: 5px;
+}
+
+.offers__descr {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 2.2rem;
+  color: var(--white-color);
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  width: 55%;
+}
+
+.offers__pattern {
+  width: 15rem;
+  height: 15rem;
+  position: absolute;
+  top: 1.2rem;
+  right: 4.5rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.offers__pattern--1 {
+  background-image: url('../../img/about-pattern-2.png');
+}
+
+.offers__pattern--2 {
+  background-image: url('../../img/offers-pattern-2.png');
+}
