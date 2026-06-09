@@ -13,7 +13,12 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   padding: 0;
 }
@@ -23,7 +28,8 @@ p {
   padding: 0;
 }
 
-ul, ol {
+ul,
+ol {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -34,19 +40,18 @@ a {
   text-decoration: none;
 }
 
+button {
+  border: none;
+  cursor: pointer;
+}
+
 img {
   max-width: 100%;
 }
 
-input:focus, textarea:focus {
-  outline: 3px solid rgb(90,102,118);
-}
-
-.btn-reset {
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
-  padding: 0;
+input:focus,
+textarea:focus {
+  outline: 3px solid rgb(90, 102, 118);
 }
 
 
@@ -117,7 +122,7 @@ input:focus, textarea:focus {
 }
 
 .logo {
-  background-image: url("/img/arshin-tech-logo.svg");
+  background-image: url("/src/img/arshin-tech-logo.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -157,7 +162,7 @@ input:focus, textarea:focus {
 .btn-request__arrow {
   width: 3.5rem;
   height: 3.5rem;
-  background-image: url('/img/arrow-1.png');
+  background-image: url('/src/img/arrow-1.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
